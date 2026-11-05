@@ -1,0 +1,32 @@
+{
+  "inbounds": [
+    {
+      "port": 3000,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "b61e412a-c566-4a9d-a72d-ab252147edc4
+072bb81d-9fe8-4308-9d25-f74a4fadae46
+fe56ebbf-f660-432a-8db8-a4f0d5021cb2
+7956f0e7-6291-4ef2-b29e-94f52ac946f0
+6c270d78-e7e9-4e8e-9601-b54e9c866698",
+            "flow": ""
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/tk-rail"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom"
+    }
+  ]
+}
